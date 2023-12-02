@@ -1,0 +1,388 @@
+    body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #ffffff;
+}
+header{
+    width: 100%;
+}
+.Encabezado{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    z-index: 9999;
+    background-color:  rgb(255, 255, 255);
+    color: aliceblue;
+}
+.imgenca{
+    width: 200px;
+}
+.menu{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 25px;
+}
+.menu:hover{
+    background-color: #9cc0ab ;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-50%);
+}
+.menu1{
+    color: #072a16;
+    text-decoration: none;
+
+}
+.imgprin{
+    width: 100%;
+    height: 700px;
+}
+.letrasop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letrasop p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    color: #072a16;
+    font-size: 70px;
+}
+.letrasop p:hover{
+    color: #108d46;
+    transition: color 2s ease-out;
+}
+.menu-dropdown {
+    position: relative;
+}
+
+.menu-icon {
+    width: 120px;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: -100%; /* Inicialmente fuera de la pantalla a la izquierda */
+    background-color:  rgb(255, 255, 255);
+    box-shadow: 0 0 10px #5d5d5f;
+    border-radius: 5px;
+    display: none;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu-dropdown:hover .dropdown-list {
+    display: block;
+    left: 0; 
+}
+.titulo1{
+    font-size: 20px;
+    text-align: center;
+}
+.Somos{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: #072a16;
+    background-color: rgb(218, 218, 218);
+}
+.Somos h1{
+    font-size: 60px;
+}
+.Somos p{
+    font-size: 20px;
+    color: #108d46;
+}
+.viajes{
+    width: 100%;
+    height: 700px;
+    background-color: #9cc0ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viajes h2{
+    text-align: center;
+}
+.anuncio-habitacion {
+    width: 300px;
+    margin: 10px ;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.anuncio-habitacion h2{
+    color: #acc864;
+    font-size: 30px;
+}
+
+.anuncio-habitacion p{
+    color: #2d6b22;
+    font-size: 20px;
+}
+
+.anuncio-habitacion strong {
+    color: #2d6b22;
+}
+.hab1{
+    width: 300px;
+    height: 300px;
+}
+.bt-registrase{
+    display: inline-block;
+    text-align: center;
+    background: #072a16;
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0px 0px 0px 0px;
+    background:  #acc864;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 42px;
+    text-decoration: none;
+    color: white;
+}
+.bt-registrase:hover{
+    border-color: #072a16;
+    transition: .5s; 
+}
+.descripGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comentarios h1{
+    padding-left: 120px;
+}
+.cajita1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 250px;
+    padding: 0px 10px 0px 10px;
+    font-size: 25px;
+    background-color: #9cc0ab;
+}
+.cajita2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 0px 10px 0px 10px;
+    background-color: #108d46;
+    font-size: 20px;
+}   
+.titulo3{
+    text-align: center;
+    font-size: 20px;
+}
+.reservar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #cce6d7;
+}
+.restri1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    width: 350px;
+    height: 540px;
+    background-color: #9cc0ab;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #108d46;
+    margin: 80px;
+}
+.paypalImage{
+    width: 200px;
+    border-radius: 10px;
+}
+.googleImage{
+    width: 200px;
+    border-radius: 10px;
+}
+.AppleImage{
+    width: 200px;
+    border-radius: 10px;
+}
+.creditodebito{
+    width: 200px;
+    border-radius: 10px;
+}
+.restri2{
+    text-align: center;
+    width: 350px;
+    height: 540px;
+    background-color: #9cc0ab;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #108d46;
+    font-size: 28px;
+    margin: 80px;
+}
+.titulo4{
+    text-align: center;
+}
+.galeria1{
+    display: flex;
+    justify-content: center;
+
+}
+.galeriafotos{
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+}
+.galeriafotos:hover{
+    transform: scale(1.2);
+}
+#general-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.carrusel-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.foto {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+#botones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px; /* Ajusta según sea necesario */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+#textoViaje {
+    display: none;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.piedepagina{
+    display: flex;
+    justify-content: center;
+    background-color: #9cc0ab;
+    font-size: 20px
+}
+.popUp {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popUp p {
+    margin-bottom: 20px;
+}
+
+.popUp button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonpopup{
+    display: inline-block;
+    text-align: center;
+    background: #072a16;
+    width: 200px;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0px 0px 0px 0px;
+    background:  #acc864;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 42px;
+    text-decoration: none;
+    color: white;
+}
+.botonpopup:hover{
+    border-color: #072a16;
+    transition: .5s; 
+}
+.botonUbicacion {
+    display: inline-block;
+    text-align: center;
+    background: #072a16;
+    width: 200px;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0px 0px 0px 0px;
+    background:  #acc864;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 42px;
+    text-decoration: none;
+    color: white;
+}
+.botonUbicacion:hover{
+    border-color: #072a16;
+    transition: .5s; 
+}
+.pie1{
+    padding: 70px;
+}
+.descargar1{
+    width: 250px;
+    height: 100px;
+}
+.helio123{
+    width: 130px;
+    height: 50px;
+}
