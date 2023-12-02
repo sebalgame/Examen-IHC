@@ -1,0 +1,115 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(150deg, rgb(112, 4, 235),  rgb(197, 177, 219));
+    height: 100vh;
+}
+.espumita{
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    height: 900px;
+    transform: translate(-50%,-50%);
+}
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: white;
+}
+.loginlogo{
+    position: absolute;
+    top: 45%;
+    left: 265%;
+    height: 800px;
+    transform: translate(-50%,-50%);
+}
+.formulario h1{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid;
+}
+.formulario form{
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 40px 0;
+}
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+form .contraseña{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 20px 0;
+}
+.contraseña input{
+    width: 100%;
+    padding: 0 5px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.recordar{
+    text-decoration: underline;
+    padding: 0px 20px 20px 0px;
+}
+.formulario input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 3px solid;
+    background: rgb(103, 103, 194);
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.formulario input[type="submit"]:hover{
+    border-color: blue;
+    transition: .5s; 
+}
+.formulario h5{
+    font-size: large;
+}
+.bt-registrase{
+    display: inline-block;
+    text-align: center;
+    background: #adadad;
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 10px 0px;
+    background: rgb(103, 103, 194);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 42px;
+    text-decoration: none;
+    color: white;
+}
+.bt-registrase:hover{
+    border-color: blue;
+    transition: .5s; 
+}
+#warnings {
+    text-align: center;
+}

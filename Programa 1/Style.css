@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    width: 100%;
+}
+.Encabezado{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    z-index: 9999;
+    background-color:  rgb(255, 255, 255);
+}
+.menu{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+.menu1{
+    color: #5d5d5f;
+    text-decoration: none;
+    padding-right: 11px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgenca{
+    width: 100px;
+}
+.imgenca:hover{
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.menu-dropdown {
+    position: relative;
+}
+
+.menu-icon {
+    width: 120px;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: -100%; /* Inicialmente fuera de la pantalla a la izquierda */
+    background-color:  rgb(255, 255, 255);
+    box-shadow: 0 0 10px #5d5d5f;
+    border-radius: 5px;
+    display: none;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu-dropdown:hover .dropdown-list {
+    display: block;
+    left: 0; 
+}
+
+.menu {
+    display: block;
+    padding: 10px;
+}
+
+.menu1 {
+    color: #5d5d5f;
+    text-decoration: none;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+
+.imgenca {
+    width: 100px;
+}
+
+.imgenca:hover {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.Descrip h1{
+    text-align: center;
+    font-size: 100px;
+}
+.Descrip h1:hover{
+    color: #5d5d5f;
+    transition: color 2s ease-out;
+    
+}
+.descripGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cajita1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 250px;
+    padding: 0px 10px 0px 10px;
+    font-size: 25px;
+    background-color: #b8bab7;
+}
+.cajita2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    padding: 0px 10px 0px 10px;
+    background-color: #e3e3e5;
+    font-size: 20px;
+}
+.cosita1{
+    width: 100%;
+    height: 900px;  
+}
+.fotosformularios{
+    width: 100%;
+    height: 800px;
+    padding-left: 100px;
+}
+.titulo2{
+    padding-left: 20px;
+}
+#DatosA{
+    width: 500px;
+    height: 30px;
+    background-color: #e3e3e5;
+}
+#DatosB{
+    width: 500px;
+    height: 70px;
+    background-color: #e3e3e5;
+}
+.fotosformularios input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    background: #d6d7d9;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.fotosformularios input[type="submit"]:hover{
+    background-color: #818586;
+    transition: .5s; 
+}
