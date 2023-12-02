@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> <!--Se debe colocar si o si-->
+        <meta name="viewport" content="width=device-width"> <!--Es para el tamanio de la pagina en los distintos dispositivos-->
+        <title>Morph Events</title> <!--Nombre de la pagina donde se ve la pestania-->
+
+        <meta name="description" content="Entrega del 1er challenge IHC"> <!--Para colocar descripcion a la pagina-->
+        <meta name="robots" content="index, follow">
+        <meta name="theme-color" content="#09f"> <!--Color de la franja en google-->
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="icon" type="image/png" href="Images/Mainpage/favicon.png"> <!--coloca imagen a la pagina-->
+        <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="firstposition" class="firstposition"></div>
+        <header>
+            <nav class="Encabezado">
+                <a href="#firstposition"><img src="Images/Mainpage/LOGO.png" class="imgenca"></a>
+                <div class="menu-container">
+                    <ul>
+                        <li class="menu"><a href="#nosotros" class="menu1">Nosotros</a></li>
+                        <li class="menu"><a href="#servicios" class="menu1">Servicios</a></li>
+                        <li class="menu"><a href="#comunidad" class="menu1">Comunidad</a></li>
+                        <li class="menu"><a href="#Contactanos" class="menu1">Contactanos</a></li>
+                        <li class="menu"><a href="../Morph Events/Pages/login.html" class="menu1">Registrate</a></li>
+                    </ul>
+                </div>
+                <button class="hamburguesa" onclick="toggleMenu()">
+                    <div class="icon-container">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </div>
+                </button>
+            </nav>
+            <img src="Images/Mainpage/PANTALLA-MORPH-EVENTS.jpg" class="imgprin" alt="logodelapagina">
+        </header>
+        <br><br><br>
+        <div class="nosotros">
+            <h2 id="nosotros"><strong>NOSOTROS</strong></h2>
+            <h3><strong>¿Quiénes somos?</strong></h3>
+            <p>Somos una organización creadora de eventos, donde según las especificaciones o requerimientos del usuario le damos posibles alternativas de como quisiera su fiesta y así darle la mejor experiencia.</p>
+            <h3><strong>Misión</strong></h3>
+            <p>Ser la empresa enfocada en brindar ideas innovadoras y únicas para garantizar la satisfacción de nuestros clientes.</p>
+            <h3><strong>Visión</strong></h3>
+            <p>Convertirse en una empresa prestigiosa y reconocida a nivel nacional, el cual genere un alto valor agregado.</p>
+        </div>
+        <br><br><br><br><br>
+        <div class="general">
+            <h1 id="servicios">Servicios</h1>
+            <p> En <strong>Morph Events</strong>, nos preocupamos por tus reuniones, por lo que disponemos de estos servicios, especialmente creado para ti.</p>
+            <div class="img1">
+                <h2>Catering</h2>
+                <img src="Images/Mainpage/Servicios/1.png" alt="Gente Festejando" width="300" title="Comida Gourmet" class="servicios">
+            </div>
+            <div class="img2">
+                <h2>Dj's</h2>
+                <img src="Images/Mainpage/Servicios/2.png" alt="Gente Festejando" width="300" title="Dj peligro" class="servicios">
+            </div>
+            <div class="img3">
+                <h2>Decoradora de eventos</h2>
+                <img src="Images/Mainpage/Servicios/3.png" alt="Gente Festejando" width="300" title="Grupo artestic ambientum" class="servicios">
+        </div>
+        <div class="comunidad">
+            <h2 id="comunidad">Comunidad</h2>
+            <p>Tenemos muchos aliados que hacen posible la organización del evento como por ejemplo las siguientes organizaciones:</p>
+            <img src="Images/Mainpage/Comunidad/1.jpg">
+            <img src="Images/Mainpage/Comunidad/2.jpg">
+            <img src="Images/Mainpage/Comunidad/3.jpg">
+            <img src="Images/Mainpage/Comunidad/4.jpg">
+            <img src="Images/Mainpage/Comunidad/5.jpg">
+            <img src="Images/Mainpage/Comunidad/6.jpg">
+        </div>
+        <h2 class="titulocontactos">Contáctanos</h2>
+        <div id="Contactanos" class="contac">
+            <div class="numero">
+                <img src="Images/Mainpage/logofono.jpg" class="im1">
+                <p>Cel: +51 970 589 866</p>
+                <p>Lunes - Viernes (8:00 am - 7:00 pm)</p>  
+            </div>
+            <div class="correo">
+                <img src="Images/Mainpage/logocorreo.jpg" class="im1">
+                <p>Morphevents@outlook.com</p>
+                <p>Web: www.morphevents.com.pe</p>
+            </div>
+            <div class="direccion">
+                <img src="Images/Mainpage/logodireccion.jpg" class="im1">
+                <p>Juan Valdez 1204,</p>
+                <p>San Isidro - Lima, Perú</p>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="formulario">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <div class="nombreda">
+                    <h5>Nombre y Apellidos</h5>
+                    <input type="text" required>
+                </div>
+                <div class="Emailda">
+                    <h5>Correo Electrónico</h5>
+                    <input type="email" required>
+                </div>
+                <div class="Distritoda">
+                    <h5>Distrito</h5>
+                    <input type="text" required>
+                </div>
+                <div class="Telefonoda">
+                    <h5>Telefono</h5>
+                    <input type="text" required>
+                </div>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+        <br><br>
+        <div class="piedepagina">
+            <div class="part1">
+                <img src="Images/Mainpage/LOGO.png" class="logopie">
+                <p>Somos una organización creadora de eventos, donde según las especificaciones o requerimientos del usuario le damos posibles alternativas de como quisiera su fiesta y así darle la mejor experiencia.</p>
+            </div>
+            <div class="part2">
+                <h3>VISIÓN</h3>
+                <p>Convertirse en una empresa prestigiosa y reconocida a nivel nacional, el cual genere un alto valor agregado</p>
+            </div>
+            <div class="part3">
+                <p>Tel: +51 970 589 866</p>
+                <p>Email: Morphevents@outlook.com</p>
+                <p>Horario: 8am-7pm</p>
+            </div>
+        </div>
+        <footer class="final">
+            <h6>© Copyright Morph Events. All Rights Reserved</h6>
+        </footer>
+    </body>
+</html>

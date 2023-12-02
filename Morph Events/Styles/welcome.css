@@ -1,0 +1,87 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    width: 100%;
+}
+.Encabezado{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    z-index: 9999;
+    background-color:  rgb(255, 255, 255);
+    color: #4c5caf;
+}
+.cabezaregis{
+    color: #6a4ea6;
+    padding-left: 1100px;
+}
+.imgenca{
+    width: 400px;
+}
+.usuario{
+    width: 100px;
+}
+.menu{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.imgprin{
+    height: 1000px;
+    width: 100%;
+}
+.datospersonales{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    width: 100%;
+    height: 300px;
+    background-color: #6a4ea6;
+}
+.cajita1{
+    width: 490px;
+    height: 300px;
+    padding: 0px 10px 0px 10px;
+}
+.cajita2{
+
+    width: 490px;
+    height: 300px;
+    background-color: #d489b2;
+    padding: 0px 10px 0px 10px;
+}
+.cajita2 h3{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.cajita2 p{
+    text-align: center;
+    font-size: 20px;
+}
+.bt-registrase{
+    display: inline-block;
+    text-align: center;
+    background: #adadad;
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0px 0px 0px 0px;
+    background:  #faba95;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 42px;
+    text-decoration: none;
+    color: white;
+}
+.bt-registrase:hover{
+    border-color: #f9ebac;
+    transition: .5s; 
+}

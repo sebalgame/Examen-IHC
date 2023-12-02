@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> <!--Se debe colocar si o si-->
+    <meta name="viewport" content="width=device-width"> <!--Es para el tamanio de la pagina en los distintos dispositivos-->
+    <title>Morph Events</title> <!--Nombre de la pagina donde se ve la pestania-->
+
+    <meta name="description" content="Entrega del 1er challenge IHC"> <!--Para colocar descripcion a la pagina-->
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#09f"> <!--Color de la franja en google-->
+    <link rel="stylesheet" href="../Styles/fiesta.css">
+    <link rel="icon" type="image/png" href="../Images/fiesta/favicon.png"> <!--coloca imagen a la pagina-->
+</head>
+<body>
+    <header>
+        <nav class="Encabezado">
+            <a href="../index.html"><img src="../Images/gustos/LOGO.png" class="imgenca"></a>
+                <h2 class="cabezaregis">Bienvenido, usuario</h2>
+                <img src="../Images/datosPersonales/usuario.png" class="usuario">
+        </nav>
+    </header>
+    <br><br><br><br>
+    <div class="mapa">
+        <h1>Mapa</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.6808976527584!2d-77.05145921173687!3d-12.08736588045893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9bb64121153%3A0x952a463cd6956fe0!2sEdificio%20Los%20Manzanos!5e0!3m2!1ses!2spe!4v1699492674869!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <form action="../Pages/welcome.html" method="post" class="paquete">
+        <div class="checkbox">
+            <ul>
+                <li><input class="recuadro1" type="checkbox" name="check1" id="check1"><label for="check1">Eventos privados</label></li>
+                <li><input type="checkbox" name="check2" id="check2"><label for="check2">Eventos publicos</label></li>
+            </ul>
+            <input class="subir" type="submit" value="Guardar"
+        </div>
+    </form>
+</body>
+</html>
