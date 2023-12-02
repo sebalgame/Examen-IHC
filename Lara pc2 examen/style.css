@@ -1,0 +1,259 @@
+* {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+}
+.Encabezado{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    z-index: 9999;
+    background-color:  rgb(255, 255, 255);
+    color: darkred;
+}
+.imgenca{
+    width: 200px;
+}
+.menu{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu:hover{
+    border: 3px rgb(214, 172, 172);
+}
+.menu1{
+    color: rgb(219, 188, 188);
+    text-decoration: none;
+    padding-right: 11px;
+}
+.imgprin{
+    height: 1000px;
+    width: 100%;
+}
+.foto1, .foto2{
+    width: 100px;
+    height: 100px;
+    padding: 0px 180px;
+}
+.titulo{
+    width: 400px;
+    height: 100px;
+    padding: 50px 60px 0px 100px;
+    color: darkred;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+.somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+    background: url('Images/jugadores.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.somos h2{
+    width: 300px;
+    font-size: x-large;
+    color: #006400;
+}
+.texto1 p{
+    color: #000080;
+}
+.somos p{
+    width: 900px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.escudo{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    border-radius: 50%;
+    border: 6px white solid;
+}
+.tablaconmebol{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.imagenrelleno{
+    padding-right: 10px;
+}
+.fototabla{
+    width: 900px;
+}
+.texto2{
+    width: 400px;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: left;
+}
+.texto2 h2{
+    color: #006400;
+}
+.texto2 p{
+    color: #000080;
+}
+.acomodando1{
+    display: flex;
+    justify-content: center;
+}
+.tabla1{
+    display: relative;
+    justify-content: center;
+    text-align: center;
+}
+.enca{
+    background: yellow;
+    text-align: center;
+    vertical-align: center;
+}
+.colorput{
+    background: #9bc2e6;
+    text-align: center;
+    vertical-align: center;
+}
+.colorput1{
+    background: #9bc2e6;
+}
+.centrando{
+    background: white;
+}
+table, tr, td{
+    border: 3px solid;
+    border-collapse: collapse;
+    border-color: #ca3535;
+}
+table{
+    width: 80%;
+}
+.centrando{
+    text-align: center;
+    vertical-align: center;
+}
+tr, td{
+    width: 1000px;
+}
+.cajavideos{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to right, red 50%, white 50%);
+}
+.video1{
+    text-align: center;
+    width: 600px;
+}
+.video2{
+    text-align: center;
+    width: 600px;
+}
+.video3{
+    text-align: center;
+    width: 600px;
+}
+.tablaconmebol2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.imagenrelleno2{
+    padding-left: 10px;
+}
+.fototabla2{
+    width: 500px;
+}
+.texto3{
+    width: 400px;
+    height: 300px;
+    padding-right: 80px;
+    padding-top: 50px;
+    text-align: left;
+}
+.texto3 h2{
+    color: #006400;
+}
+.texto3 p{
+    color: #000080;
+}
+.acomodando2{
+    display: flex;
+    justify-content: center;
+}
+.tabla2{
+    width: 40%;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.encatu{
+    background: orange;
+    text-align: center;
+    vertical-align: center;
+    height: 40px;
+}
+.lateral{
+    background: grey;
+    text-align: center;
+}
+.lateral2{
+    background: grey;
+}
+.lateral3{
+    text-align: right;
+    background: white;
+}
+.piedepagina{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 350px;
+}
+.part1{
+    width: 250px;
+    height: 50px;
+    padding: 10px 110px 10px 10px
+}
+.logopie{
+    width: 190px;
+}
+.part2{
+    width: 250px;
+    height: 50px;
+    padding: 10px 110px 10px 10px
+}
+.part3{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    padding: 10px 110px 10px 10px;
+}
+.part3 a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
